@@ -5,6 +5,17 @@ SidConversion module contains the cmdlets for conversion SID (security identifie
 * `ConvertTo-Sid` converts a Windows user or group account name to the SID of this account
 * if you want to try this cmdlets or need to convert a SID once and do not want to install module, you could use the scripts `ConvertFrom-Sid.ps1` and `ConvertTo-Sid.ps1`, which are full-fledged separate copies of the same-named cmdlets
 
+#### license  
+[![license](https://img.shields.io/github/license/almaceleste/xfce4-genmon-scripts.svg?longCache=true)](https://github.com/almaceleste/xfce4-genmon-scripts/blob/master/LICENSE)
+
+### how to install
+#### install from github with git
+```
+git clone https://github.com/almaceleste/sidcoversion.git
+Register-PSRepository -Name SidConversionRepo -SourceLocation ./sidconversion
+Install-Module SidConversion -Scope CurrentUser -Repository SidConversionRepo
+```
+
 ### support me
 [![Beerpay](https://beerpay.io/almaceleste/userscripts/badge.svg?style=beer-square)](https://beerpay.io/almaceleste/userscripts) [![Beerpay](https://beerpay.io/almaceleste/userscripts/make-wish.svg?style=flat-square)](https://beerpay.io/almaceleste/userscripts?focus=wish)
 [![](https://img.shields.io/badge/Paypal-donate_me-blue.svg?longCache=true&logo=paypal)](https://www.paypal.me/almaceleste "paypal | donate me") 
