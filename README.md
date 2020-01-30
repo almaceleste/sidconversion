@@ -11,7 +11,7 @@ SidConversion module contains the cmdlets for conversion SID (security identifie
 ### how to install
 #### install from github with git
 ```
-git clone https://github.com/almaceleste/sidcoversion.git
+git clone https://github.com/almaceleste/sidconversion.git
 Register-PSRepository -Name SidConversionRepo -SourceLocation ./sidconversion
 Install-Module SidConversion -Scope CurrentUser -Repository SidConversionRepo
 ```
