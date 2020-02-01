@@ -15,6 +15,11 @@ git clone https://github.com/almaceleste/sidconversion.git
 Register-PSRepository -Name SidConversionRepo -SourceLocation ./sidconversion
 Install-Module SidConversion -Scope CurrentUser -Repository SidConversionRepo
 ```
+#### install from PowerShell Gallery
+```
+Install-Module -Name SidConversion
+```
+
 ### list of cmdlets
 #### ConvertFrom-Sid
 `ConvertFrom-Sid` converts the SID of the user or group account to the name of this account. you could convert both local and domain accounts SIDs.
