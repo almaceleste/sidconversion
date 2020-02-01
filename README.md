@@ -15,6 +15,12 @@ git clone https://github.com/almaceleste/sidconversion.git
 Register-PSRepository -Name SidConversionRepo -SourceLocation ./sidconversion
 Install-Module SidConversion -Scope CurrentUser -Repository SidConversionRepo
 ```
+### list of cmdlets
+#### ConvertFrom-Sid
+`ConvertFrom-Sid` converts the SID of the user or group account to the name of this account. you could convert both local and domain accounts SIDs.
+
+#### ConvertTo-Sid
+`ConvertTo-Sid` converts a Windows user or group account name to the SID of this account. you could convert both local and domain accounts (for local accounts use local machine name (or .) as parameter -domain)
 
 ### support me
 [![Beerpay](https://beerpay.io/almaceleste/sidcoversion/badge.svg?style=beer-square)](https://beerpay.io/almaceleste/sidcoversion) [![Beerpay](https://beerpay.io/almaceleste/sidcoversion/make-wish.svg?style=flat-square)](https://beerpay.io/almaceleste/sidcoversion?focus=wish)
