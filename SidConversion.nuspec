@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SidConversion</id>
+    <version>0.1.0</version>
+    <authors>almaceleste</authors>
+    <owners>almaceleste</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>this module contains the cmdlets for conversion SID (security identifier) of a Windows user or group account to the name of this account</description>
+    <releaseNotes></releaseNotes>
+    <copyright>GNU Affero GPL v3 (ɔ) 2020 almaceleste</copyright>
+    <tags>PSModule PSIncludes_Cmdlet PSCmdlet_ConvertFrom-Sid PSCmdlet_ConvertTo-Sid PSIncludes_Function PSFunction_ConvertFrom-Sid PSFunction_ConvertTo-Sid PSCommand_ConvertFrom-Sid PSCommand_ConvertTo-Sid PSCommand_cfsid PSCommand_ctsid</tags>
+  </metadata>
+</package>
