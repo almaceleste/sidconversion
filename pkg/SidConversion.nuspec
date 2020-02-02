@@ -3,12 +3,24 @@
   <metadata>
     <authors>almaceleste</authors>
     <copyright>GNU Affero GPL v3 (ɔ) 2020 almaceleste</copyright>
-    <description>this module contains the cmdlets for conversion SID (security identifier) of a Windows user or group account to the name of this account</description>
+    <description>this module contains the cmdlets to convert the SID (security identifier) of a Windows user or group account to the name of this account and backward</description>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib"/>
+    </frameworkAssemblies>
     <id>SidConversion</id>
+    <license type="expression">AGPL-3.0-only</license>
     <owners>almaceleste</owners>
-    <releaseNotes></releaseNotes>
+    <projectUrl>https://github.com/almaceleste/sidconversion</projectUrl>
+    <releaseNotes>minor fixes:
+      - clarified description
+      - fixed some orthographic
+      - corrected and added urls
+      - added dependencies
+      - added tags and other system info
+    </releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>PSModule PSIncludes_Cmdlet PSCmdlet_ConvertFrom-Sid PSCmdlet_ConvertTo-Sid PSIncludes_Function PSFunction_ConvertFrom-Sid PSFunction_ConvertTo-Sid PSCommand_ConvertFrom-Sid PSCommand_ConvertTo-Sid PSCommand_cfsid PSCommand_ctsid</tags>
-    <version>0.1.0</version>
+    <tags>account conversion convert domain group identifier local principal security sid string user well-known windows ConvertFrom-Sid ConvertTo-Sid cfsid ctsid PSModule PSIncludes_Cmdlet PSCmdlet_ConvertFrom-Sid PSCmdlet_ConvertTo-Sid PSIncludes_Function PSFunction_ConvertFrom-Sid PSFunction_ConvertTo-Sid PSCommand_ConvertFrom-Sid PSCommand_ConvertTo-Sid PSCommand_cfsid PSCommand_ctsid</tags>
+    <title>Windows Security Identifier (SID) conversion module for PowerShell</title>
+    <version>0.1.1</version>
   </metadata>
 </package>
