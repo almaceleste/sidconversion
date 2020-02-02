@@ -29,8 +29,7 @@ PrivateData = @{
     }
 }
 RequiredAssemblies=@(
-    'mscorlib.dll',
-    'System.Security.Principal.Windows.dll')
+    'mscorlib.dll')
 RequiredModules=@(
     'Microsoft.PowerShell.Utility')
 RootModule='SidConversion.psm1'
