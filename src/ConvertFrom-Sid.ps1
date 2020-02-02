@@ -32,14 +32,14 @@
     .OUTPUTS
     string
     .LINK
-    https://github.com/almaceleste/powershell/sidconversion#ConvertFrom-Sid
+    https://github.com/almaceleste/sidconversion#ConvertFrom-Sid
     .COMPONENT
     System.Security.Principal
     .NOTES
-    Version:        0.1.0.0
+    Version:        0.1.1
     Author:         almaceleste
     Creation Date:  2020
-    Purpose/Change: Initial script development
+    Purpose/Change: fixed help link
 #>
 param (
     [Parameter(
