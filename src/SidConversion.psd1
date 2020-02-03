@@ -40,8 +40,6 @@ initial upload to GitHub and PowerShell Gallery
             'windows')
     }
 }
-RequiredModules=@(
-    'Microsoft.PowerShell.Utility')
 RootModule='SidConversion.psm1'
 AliasesToExport=@('cfsid','ctsid')
 CmdletsToExport=@(
