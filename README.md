@@ -28,5 +28,6 @@ Install-Module -Name SidConversion
 `ConvertTo-Sid` converts a Windows user or group account name to the SID of this account. you could convert both local and domain accounts (for local accounts use local machine name (or .) as parameter -domain)
 
 ### support me
-[![Beerpay](https://beerpay.io/almaceleste/sidconversion/badge.svg?style=beer-square)](https://beerpay.io/almaceleste/sidconversion) [![Beerpay](https://beerpay.io/almaceleste/sidconversion/make-wish.svg?style=flat-square)](https://beerpay.io/almaceleste/sidconversion?focus=wish)
+<!-- [![Beerpay](https://beerpay.io/almaceleste/sidconversion/badge.svg?style=beer-square)](https://beerpay.io/almaceleste/sidconversion) [![Beerpay](https://beerpay.io/almaceleste/sidconversion/make-wish.svg?style=flat-square)](https://beerpay.io/almaceleste/sidconversion?focus=wish) -->
+[![Ko-fi](/assets/img/Ko-fi_logo_transparent.png)](https://ko-fi.com/almaceleste "bye me cofee")
 [![](https://img.shields.io/badge/Paypal-donate_me-blue.svg?longCache=true&logo=paypal)](https://www.paypal.me/almaceleste "paypal | donate me") 
